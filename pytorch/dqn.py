@@ -247,9 +247,9 @@ def plot_durations():
     plt.ylabel('Duration')
     plt.plot(durations_t.numpy())
 
-    if len(durations_t) >= 100:
-        means = durations_t.unfold(0, 100, 1).mean(1).view(-1)
-        means = torch.cat((torch.zeros(99), means))
+    if len(durations_t) >= 5:
+        means = durations_t.unfold(0, 5, 1).mean(1).view(-1)
+        means = torch.cat((torch.zeros(4), means))
         plt.plot(means.numpy())
 
     plt.pause(0.001)
