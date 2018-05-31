@@ -16,7 +16,7 @@ Reproducing results from the [Hindsight Experience Replay](https://arxiv.org/abs
 ![7dqn](/plots/7_dqn.png) ![7her](/plots/7_her.png)
 ![8dqn](/plots/8_dqn.png) ![8her](/plots/8_her.png)
 =====
-Only HER Results
+### Only HER Results  
 ![10her](/plots/10_her.png) ![10herloss](/plots/10_loss_her.png)
 ## To do
 * Higher bit length using Google Colab notebook
