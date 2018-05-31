@@ -11,12 +11,10 @@ Reproducing results from the [Hindsight Experience Replay](https://arxiv.org/abs
 
 ## Results
 * Compared success rate across number of episodes for bit length `n=6,7,8` for both DQN and DQN+HER (could not do higher bit length as no GPU)
-![6dqn](/plots/6_dqn.png)
-![6her](/plots/6_her.png)
-![7dqn](/plots/7_dqn.png)
-![7her](/plots/7_her.png)
-![8dqn](/plots/8_dqn.png)
-![8her](/plots/8_her.png)
+
+![6dqn](/plots/6_dqn.png) ![6her](/plots/6_her.png)
+![7dqn](/plots/7_dqn.png) ![7her](/plots/7_her.png)
+![8dqn](/plots/8_dqn.png) ![8her](/plots/8_her.png)
 
 ## To do
 * Higher bit length using Google Colab notebook
