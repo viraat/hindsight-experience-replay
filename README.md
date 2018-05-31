@@ -6,7 +6,7 @@ Reproducing results from the [Hindsight Experience Replay](https://arxiv.org/abs
 * implemented the bit flip environment
   *  Task: given a starting string of `n` bits and a target string of same length, flip the bits in the start string till the target string is achieved. The number of flips allowed is equal to the number of bits in the string - `n`
 * implemented a deep q-network with one hidden layer of 256 nodes
-* implemented hindsight-experience-replay with goal selection rule of $s_T$, i.e. the new goal is the last state achieved in the sequence of flips
+* implemented hindsight-experience-replay with goal selection rule of `s_T`, i.e. the new goal is the last state achieved in the sequence of flips
 * implemented a baseline DQN network without hindsight-experience-replay
 
 ## Results
